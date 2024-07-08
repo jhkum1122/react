@@ -1,18 +1,17 @@
-import type { FC } from "react";
-import type { ReactDivProps } from "../components/Div";
-import type { Div } from "../components/Div";
+import { Title, Div, Icon, Overlay } from "../components";
 
-export type OverlayProps = ReactDivProps & {
-  opacityClass?: string;
-};
-
-/*
-export const Overlay: FC<OverlayProps> = ({ className: _className 
-  opacityClass,
-  children,
-  ...props
-}) => {
-  const className = [].join(' ')
-};
-
-*/
+export default function OverlayTest() {
+  return (
+    <section className="mt-4">
+      <Title>CopyMe</Title>
+      <Overlay opacityClass="bg-black/70">
+        <Div className="relative flex items-center justify-center p-8 bg-white h-1/2">
+          <Div className="absolute" right="1rem" top="1rem">
+            <Icon name="close" className="text-gray-500"></Icon>
+          </Div>
+          <p className="text-5xl">modal dialog box</p>
+        </Div>
+      </Overlay>
+    </section>
+  );
+}

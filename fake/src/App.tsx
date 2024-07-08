@@ -166,7 +166,7 @@ import DisplayTest from "./pages/DisplayTest";
 import DisplayNoneTest from "./pages/DisplayNoneTest";
 import AvatarTest from "./pages/AvatarTest";
 import PositionTest from "./pages/PositionTest";
-// import OverlayTest from "./pages/OverlayTest";
+import OverlayTest from "./pages/OverlayTest";
 
 export default function App() {
   return (
@@ -182,7 +182,7 @@ export default function App() {
       <DisplayNoneTest />
       <AvatarTest />
       <PositionTest />
-      {/* <OverlayTest /> */}
+      <OverlayTest />
     </main>
   );
 }
