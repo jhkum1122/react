@@ -119,7 +119,7 @@ export default function App() {
     </div>
   );
 }
-*/
+
 
 import Bootstrap from "./pages/Bootstrap";
 import Icon from "./pages/Icon";
@@ -131,13 +131,25 @@ import "./index.css";
 export default function App() {
   return (
     <div>
-      {/* 
-      <UsingIconWithCSSClass />
-      <UsingIcon />*/}
-
+   
       <Style />
       <Icon />
       <Bootstrap />
+    </div>
+  );
+}
+*/
+
+import Tailwindcss from "./pages/Tailwindcss";
+import Color from "./pages/Color";
+import TextsTest from "./pages/TextsTest";
+
+export default function App() {
+  return (
+    <div>
+      <TextsTest></TextsTest>
+      <Color></Color>
+      <Tailwindcss></Tailwindcss>
     </div>
   );
 }
