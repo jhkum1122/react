@@ -140,6 +140,7 @@ export default function App() {
 }
 */
 
+/*
 import Tailwindcss from "./pages/Tailwindcss";
 import Color from "./pages/Color";
 import TextsTest from "./pages/TextsTest";
@@ -151,5 +152,37 @@ export default function App() {
       <Color></Color>
       <Tailwindcss></Tailwindcss>
     </div>
+  );
+}
+*/
+import DivTest from "./pages/DivTest";
+import ViewportTest from "./pages/ViewportTest";
+import HeightTest from "./pages/HeightTest";
+import PaddingTest from "./pages/PaddingTest";
+import MarginTest from "./pages/MarginTest";
+import ImageTest from "./pages/ImageTest";
+import BackgroundTest from "./pages/BackgroundImageTest";
+import DisplayTest from "./pages/DisplayTest";
+import DisplayNoneTest from "./pages/DisplayNoneTest";
+import AvatarTest from "./pages/AvatarTest";
+import PositionTest from "./pages/PositionTest";
+// import OverlayTest from "./pages/OverlayTest";
+
+export default function App() {
+  return (
+    <main>
+      <DivTest />
+      <ViewportTest />
+      <HeightTest />
+      <PaddingTest />
+      <MarginTest />
+      <ImageTest />
+      <BackgroundTest />
+      <DisplayTest />
+      <DisplayNoneTest />
+      <AvatarTest />
+      <PositionTest />
+      {/* <OverlayTest /> */}
+    </main>
   );
 }
