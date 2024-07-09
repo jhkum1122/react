@@ -195,17 +195,23 @@ import JustifyCenterTest from "./pages/JustifyCenterTest";
 import AlignTest from "./pages/AlignTest";
 import UserContainer from "./pages/UserContainer";
 import CardContainer from "./pages/CardContainer";
+import ButtonTest from "./pages/ButtonTest";
+import ModalTest from "./pages/ModalTest";
+import InputTest from "./pages/InputTest";
 
 export default function App() {
   return (
     <main>
-      <CardContainer />
+      {/* <CardContainer />
       <UserContainer />
       <AlignTest />
       <JustifyCenterTest />
       <MinMaxTest />
       <WrapTest />
-      <DirectionTest />
+      <DirectionTest /> */}
+      {/* <ButtonTest />
+      <InputTest /> */}
+      <ModalTest />
     </main>
   );
 }

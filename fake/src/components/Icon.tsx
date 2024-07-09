@@ -33,7 +33,7 @@ export const Icon: FC<IconProps> = ({
   className: _classname,
   ...props
 }) => {
-  const className = ["material-icons", _classname].join("");
+  const className = ["material-icons", _classname].join(" ");
   return (
     <span {...props} className={className}>
       {name}
